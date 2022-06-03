@@ -8,7 +8,13 @@
     <link href="style/reset.css" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet">
     <link href="style/color1.css" rel="stylesheet">
+    <link href="style/color1.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <link href="style/style-switcher.css" rel="stylesheet">
+    <link href="style/color2.css" rel="stylesheet">
+    <link href="style/color3.css" rel="stylesheet">
+    <link href="style/color4.css" rel="stylesheet">
+    <link href="style/color5.css" rel="stylesheet">
 
 
 </head>
@@ -497,7 +503,23 @@
 
 
 
-
+    <!-- STYLE SWITCHER -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+        <h4> Theme Colors </h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
 
     <!--===== JS =======-->
     <script src="script/js.js"></script>

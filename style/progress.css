@@ -1,0 +1,86 @@
+h1{
+    font-family: 'Water Brush', cursive;
+    font-weight: 900;
+    font-size: 90px;
+    color: aliceblue;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    word-spacing: 30px;
+
+    position: relative;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    justify-content: center;
+    -webkit-box-reflect:below 1px linear-gradient(transparent,#0008);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+    margin-left: 20px;
+    margin-top: 100px;
+
+}
+
+@keyframes animate
+{
+  0%,18%,20%,50.1%,60.1%,65%,80.1%,90%,92.1%,100%
+  {
+      color: #fffefe;
+      text-shadow: none;
+  }
+  18.1%,20.1%,30%,50%,60.1%,80.1%,90%,92.1%,100%
+  {
+      color: #fff;
+      text-shadow: 0 0 10px #ea1538,
+      0 0 20px #ea1538,
+      0 0 40px #ea1538,
+      0 0 80px #ea1538,
+      0 0 160px #ea1538;
+
+  }
+}
+
+.container img{
+    width: 400px;
+    border-radius: 5%;
+    padding-left: 10px;
+}
+
+.container{
+    
+    display: grid;
+    grid-template-columns: 100%;
+    margin-left: 400px;
+    margin-right: 50px;
+    background-color: black;
+    height: 400px;
+    margin-top: 90px;
+    width: 55%;
+    position: center;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 40px ;
+
+}
+
+
+
+p{
+    font-size: 26px;
+    border-radius: 5px;
+    color: white;
+    margin-top: -250px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+body{
+    
+}
+

@@ -661,7 +661,7 @@ h3.hello span{
 .contact .contact-info-item .icon{
     display: inline-block;
 }
-.contact .contact-info-item .icon .fa{
+.contact .contact-info-item .icon .fa , .fab{
     font-size: 25px;
     color: var(--skin-color);
 }

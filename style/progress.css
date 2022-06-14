@@ -68,6 +68,28 @@ h1{
     border-bottom-right-radius: 40px ;
 
 }
+.container2{
+    
+    display: grid;
+    grid-template-columns: 100%;
+    margin-left: 400px;
+    margin-right: 50px;
+    background-color: black;
+    height: 400px;
+    margin-top: 90px;
+    width: 55%;
+    position: center;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 40px ;
+
+}
 
 
 

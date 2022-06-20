@@ -72,12 +72,12 @@ h1{
     
     display: grid;
     grid-template-columns: 100%;
-    margin-left: 400px;
+    margin-left: 150px;
     margin-right: 50px;
     background-color: black;
     height: 400px;
     margin-top: 90px;
-    width: 55%;
+    width: 75%;
     position: center;
     padding-left: 50px;
     padding-top: 10px;
@@ -89,11 +89,17 @@ h1{
     border-bottom-left-radius: 80px;
     border-bottom-right-radius: 40px ;
 
+
+}
+
+.container2 img, .container3 img{
+    width: 400px;
+    border-radius: 5%;
+    padding-left: 10px;
 }
 
 
-
-p{
+.p1{
     font-size: 26px;
     border-radius: 5px;
     color: white;
@@ -102,7 +108,47 @@ p{
     margin-left: 400px;
 }
 
-body{
+.p2{
+    font-size: 26px;
+    border-radius: 5px;
+    color: white;
+    margin-top: -50px !important; 
+    text-align: center;
+    margin-left: 400px;
+}
 
+
+.container3{
+    
+    display: grid;
+    grid-template-columns: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: black;
+    height: 350px;
+    margin-top: 90px;
+    width: 80%;
+    position: center;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 50px;
+    
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 40px ;
+
+
+}
+
+
+.p3{
+    font-size: 26px;
+    border-radius: 5px;
+    color: white;
+    margin-top: -140px;
+    text-align: center;
+    margin-left: 400px;
 }
 

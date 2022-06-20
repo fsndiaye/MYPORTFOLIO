@@ -605,6 +605,7 @@ h3.hello span{
 }
 .portfolio .portfolio-item-inner .portfolio-img img{
     width: 100%;
+   
     display: block;
 }
 
